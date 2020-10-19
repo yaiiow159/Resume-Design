@@ -20,8 +20,9 @@ body {
 }
 .inner {
     margin: 0 auto;
-    max-width: 250px;
+    max-width: 200px;
     border-left: 1px solid #fff;
+    padding-left: 24px;
 }
 
 .name {
@@ -110,13 +111,13 @@ body {
             padding-bottom: 36px;
         }
 
-        &:before {
+       /*  &:before {
             content: "";
             margin-right: 30px;
             width: 1px;
             height: 100%;
             border-left: 2px solid #ffffff;
-        }
+        } */
     }
 }
 
@@ -163,10 +164,7 @@ body {
 
     li {
         line-height: 36px;
-
-        &:last-child {
-            margin-bottom: 16px;
-        }
+        margin-bottom: 16px;
     }
 
     a{

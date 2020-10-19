@@ -85,8 +85,9 @@ body {
 
 .inner {
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 200px;
   border-left: 1px solid #fff;
+  padding-left: 24px;
 }
 
 .name {
@@ -167,6 +168,13 @@ body {
   text-align: left;
   margin-bottom: 20px;
   color: #ffffff;
+  /*  &:before {
+            content: "";
+            margin-right: 30px;
+            width: 1px;
+            height: 100%;
+            border-left: 2px solid #ffffff;
+        } */
 }
 
 .skills li:first-child {
@@ -175,14 +183,6 @@ body {
 
 .skills li:last-child {
   padding-bottom: 36px;
-}
-
-.skills li:before {
-  content: "";
-  margin-right: 30px;
-  width: 1px;
-  height: 100%;
-  border-left: 2px solid #ffffff;
 }
 
 .work ul:nth-child(2) {
@@ -228,9 +228,6 @@ body {
 
 .footer li {
   line-height: 36px;
-}
-
-.footer li:last-child {
   margin-bottom: 16px;
 }
 
