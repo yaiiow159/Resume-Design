@@ -117,11 +117,11 @@ body {
   margin: 48px 0;
 }
 
-.profile,
-.sklls {
+.skills {
   margin-bottom: 82px;
 }
 
+.profile,
 .education,
 .work {
   margin-bottom: 72px;
@@ -146,6 +146,7 @@ body {
 
 .skills {
   background-color: #415165;
+  padding-bottom: 36px;
 }
 
 .skills h2 {
@@ -168,21 +169,10 @@ body {
   text-align: left;
   margin-bottom: 20px;
   color: #ffffff;
-  /*  &:before {
-            content: "";
-            margin-right: 30px;
-            width: 1px;
-            height: 100%;
-            border-left: 2px solid #ffffff;
-        } */
 }
 
 .skills li:first-child {
   margin-top: 48px;
-}
-
-.skills li:last-child {
-  padding-bottom: 36px;
 }
 
 .work ul:nth-child(2) {
@@ -204,6 +194,7 @@ body {
 .work ul > li p {
   line-height: 30px;
   font-size: 20px;
+  width: 642px;
 }
 
 .footer {
@@ -234,5 +225,19 @@ body {
 .footer a {
   color: #ffffff;
   margin-right: 24px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: black;
+}
+
+.footer .icon-footer {
+  padding-bottom: 36px;
+}
+
+.footer .icon-footer li {
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */
